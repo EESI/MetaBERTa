@@ -1,4 +1,4 @@
-# MetaBerta - Metagenomics Analysis with Customizable Language Models
+# MetaBerta - Metagenomics Analysis with Language Models
 
 MetaBerta is a project that enables metagenomics analysis using customizable language models. It provides a flexible pipeline that allows users to select their preferred architecture and language model (currently supporting BERT and Roberta) for training and analysis. The pipeline includes components for data preprocessing, model training, embedding generation, and evaluation.
 

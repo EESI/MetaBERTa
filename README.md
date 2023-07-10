@@ -11,3 +11,12 @@ MetaBerta is a project that enables metagenomics analysis using customizable lan
 - **Embedding**: MetaBerta allows users to generate embeddings for metagenomic sequences using the trained language model. These embeddings capture the semantic information of the sequences, enabling downstream analysis.
 
 - **Evaluation**: The pipeline provides evaluation functionalities to assess the performance of the trained model on metagenomic tasks. Users can evaluate their model using various metrics, analyze the results, and visualize the performance.
+
+- ## Requirements
+
+To run MetaBerta, ensure you have the following dependencies:
+
+- Hugging Face Transformers library: Install using `pip install transformers`.
+
+Please ensure you have a compatible GPU and the necessary GPU drivers installed for accelerated processing.
+

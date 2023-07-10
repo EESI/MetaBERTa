@@ -1,0 +1,2 @@
+/ifs/opt/python/gcc/3.10/bin/python: can't open file '/ifs/groups/rosenMRIGrp/sr3622/orchestration/training.py': [Errno 2] No such file or directory
+srun: error: node011: task 0: Exited with exit code 2

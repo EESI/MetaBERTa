@@ -1,0 +1,79 @@
+
+###################################### Workdir:
+
+# Pre-Training Dataset 
+fragment_path : "../datasets/dairy_db_6mer_200"
+ 
+ 
+# Downstream Dataset 
+ 
+dairydb: "../downstream_dataset/dairydb"
+
+its : "../downstream_dataset/its"
+
+s28s : "../downstream_dataset/s28s"
+
+silva_train : "../downstream_dataset/silva/train"
+
+silva_test : "../downstream_dataset/silva/test"
+
+
+###################################### Preprocess: 
+
+fragments_lenght : 200
+
+all_fragments : False
+
+overlap_frag: False
+
+
+###################################### Training:
+
+# could be fragments_lenght/k_mer_size or fragments_lenght -1
+vector_size : 200
+
+k_mer_size: [6]
+
+overlapping: True
+
+max_position_embeddings : 200
+
+from_pretraied: False
+             
+pretrained_path : ""  # resume pre-training
+
+model_type : "roberta"
+
+data_collator : "DataCollatorForLanguageModeling"
+
+adam_epsilon : 1e-4
+
+position_embedding_type :  ["relative_key"]    # "absolute" # "relative_key", "relative_key_query"
+
+#Pre-training test_size
+test_size: 0.00001
+
+max_grad_norm : 0.85
+
+gradient_accumulation_steps : 4
+
+mlm_probability : 0.15
+
+learning_rate : 0.0005
+
+EMBED_DIM : [2048]
+
+NUM_HEAD : 4
+
+NUM_LAYERS : 8
+
+
+FF_DIM : 512  # used in bert model is intermidate dim ?!
+
+BATCH_SIZE : 64
+
+epochs : 1
+
+
+
+

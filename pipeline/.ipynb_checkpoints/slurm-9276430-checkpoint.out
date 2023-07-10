@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+srun: error: node043: task 0: Exited with exit code 1
+  File "/ifs/groups/rosenMRIGrp/sr3622/orchestration/embedding.py", line 1, in <module>
+    from transformers import AutoModelForCausalLM,AutoConfig,Trainer,BertConfig
+ModuleNotFoundError: No module named 'transformers'
+Error: in prepare, no such column: evaluate_path
+  SELECT evaluate_path,model_name FROM 'meta_data9' WHERE rowid=1;
+         ^--- error here
+find: ‘’: No such file or directory
+You need to wait for the rest of the runs

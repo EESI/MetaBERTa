@@ -7,7 +7,7 @@ MetaBerta is a project that enables metagenomics analysis using customizable lan
 
 ## Pipeline Features
 
-- **Customizable Language Models**: Users can choose between BERT and Roberta architectures as their language model for metagenomics analysis. This flexibility allows for fine-tuning or transfer learning based on specific requirements.
+- **Customizable Language Models**: Users can choose between BERT and Roberta and BigBird architectures as their language model for metagenomics analysis. This flexibility allows for fine-tuning or transfer learning based on specific requirements.
 
 - **Training**: The pipeline supports training the selected language model on metagenomic data. Users can provide their training data and specify the necessary hyperparameters to train the model.
 

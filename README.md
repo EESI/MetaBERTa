@@ -26,7 +26,7 @@ Please ensure you have a compatible GPU and the necessary GPU drivers installed 
 
 ## Citation:
 
-@inproceedings{refahi2023leveraging,
+      @inproceedings{refahi2023leveraging,
 
         title={Leveraging Large Language Models for Metagenomic Analysis},
         
@@ -39,6 +39,6 @@ Please ensure you have a compatible GPU and the necessary GPU drivers installed 
         year={2023},
         
         publisher={IEEE}
-}
+       }
 
 

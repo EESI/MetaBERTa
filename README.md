@@ -28,17 +28,17 @@ Please ensure you have a compatible GPU and the necessary GPU drivers installed 
 
 @inproceedings{refahi2023leveraging,
 
-  title={Leveraging Large Language Models for Metagenomic Analysis},
-  
-  author={Refahi, MS and Sokhansanj, BA and Rosen, GL},
-  
-  booktitle={2023 IEEE Signal Processing in Medicine and Biology Symposium (SPMB)},
-  
-  pages={1--6},
-  
-  year={2023},
-  
-  publisher={IEEE}
+        title={Leveraging Large Language Models for Metagenomic Analysis},
+        
+        author={Refahi, MS and Sokhansanj, BA and Rosen, GL},
+        
+        booktitle={2023 IEEE Signal Processing in Medicine and Biology Symposium (SPMB)},
+        
+        pages={1--6},
+        
+        year={2023},
+        
+        publisher={IEEE}
 }
 
 

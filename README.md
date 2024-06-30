@@ -24,7 +24,7 @@ To run MetaBerta, ensure you have the following dependencies:
 Please ensure you have a compatible GPU and the necessary GPU drivers installed for accelerated processing.
 
 
-##Citation:
+## Citation:
 
 @inproceedings{refahi2023leveraging,
   title={Leveraging Large Language Models for Metagenomic Analysis},
